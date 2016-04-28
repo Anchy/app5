@@ -1,0 +1,300 @@
+ <!doctype html>
+  <html>
+  <head>
+  <meta charset="utf-8">
+  <title>Quinta Aplicacion</title>
+ 
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+  <link rel="stylesheet" href="css/temasapp5.min.css"/>
+  <!--grupo JavaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/acciones.js"></script>
+  <script src="phonegap.js" type="text/javascript"></script>
+  <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+  </script>
+  </head>
+ 
+  <body onLoad="MM_preloadImages('imagenes/765852446_1204571.gif','imagenes/DIA.png','imagenes/806146361_1289540.gif','imagenes/619303079_1409500.gif','imagenes/misc2.png','imagenes/ahorrar-agua1.png','imagenes/21.png','imagenes/55700EB67.png','imagenes/21 - copia.png','imagenes/medio_ambiente_ecologia_especies_en_peligro_de_extincion.png','imagenes/MIKU.png')">
+  <div data-role="page" id="Principal" data-theme="a">
+  	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ 		<h1>DIA DE LA TIERRA </h1>
+  </div>
+  <!-- Start WOWSlider.com -->
+<iframe src="visor/indexwow.html" style="width:500px;height:250px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+  <div data-role="main" class="ui-content">
+  	<div data-role="collapsible" data-content-theme="false">
+  		<h3>22 DE ABRIL DIA DE LA TIERRA</h3>
+  			<div>
+  			<p>Cuida tu casa,mi casa, nuestra casa:</p>
+  			<br>
+            <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image11','','imagenes/765852446_1204571.gif',1)"><img src="imagenes/MIKU.png" width="430" height="200" id="Image11"></a>
+  			</div>
+  <div></div>
+  </div>
+  </div>
+  
+  <div>
+  	<ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+  	<li class="ui-first-child ui-last-child">
+  	<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  	<h2>¿Que es el dia de la tierra?</h2>
+  	<p>Se muestra que es el dia de la tierra</p>
+  		</a>
+  	</li>
+  <li class="ui-first-child ui-last-child">
+ 	<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  	<h2>¿Por que se celebra en ese dia el dia de la tierra?</h2>
+  	<p>Se muestra el dia en que se celebra y porque</p>
+  	</a>
+  </li>
+ <li class="ui-first-child ui-last-child">
+  	<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  	<h2>Cuidado del medio ambiente</h2>
+  	<p>Muestra los diferentes cuidados que podemos aplicar al medio ambiente</p>
+  	</a>
+  	</li>
+  <li class="ui-first-child ui-last-child">
+  	<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  	<h2>Calentamiento global</h2>
+  	<p>Muestra que es el calentamiento global</p>
+  	</a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+   	<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  	<h2>Cambio climatico</h2>
+  	<p>Muestra los diferentes cambios de clima ocurren </p>
+  	</a>
+  	</li>
+    <li class="ui-first-child ui-last-child">
+  	<a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  	<h2>Tipos de contaminacion</h2>
+  	<p>se muestra los diferentes tipos de contaminacion que existen</p>
+  	</a>
+  	</li>
+  <li class="ui-first-child ui-last-child">
+  	<a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  	<h2>Regla de las 3 R</h2>
+  	<p>Muestra la regla de las 3 R</p>
+  	</a>
+  </li>
+   <li class="ui-first-child ui-last-child">
+  	<a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  	<h2>Problemas cerca de mi comunidad</h2>
+  	<p>se muestran los distintos tipos de problemas que existen en mi comunidad</p>
+  	</a>
+  	</li>
+  </ul>
+</div>
+<div data-role="footer" align="center" data-theme="a">
+<br>
+  <div>
+  	    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('footer','','imagenes/MIKU.png',1)"><img src="imagenes/765852446_1204571.gif" width="225" height="225" id="footer"></a></div>
+  <div>
+ 	 <h4>Aplicacion Cinco</h4>
+  	<h4>Nancy Araceli Paredes Manzanares</h4>
+  </div>
+ </div>
+ </div>
+ 
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>¿Que es el dia de la tierra?</h1>
+  </div>
+ <div data-role="content" align="center">
+  <div>
+ <img src="imagenes/planeta-tierra-300x267.png" width="69%" height="42%"> 
+ 	 <p>El Día de la Tierra es un día celebrado en muchos países el 22 de abril. Su promotor, el senador estadounidense Gaylord Nelson, instauró este día para crear una conciencia común a los problemas de la superpoblación, la producción de contaminación, la conservación de la biodiversidad y otras preocupaciones ambientales para proteger la Tierra. Es un día para rendir homenaje a nuestro planeta y reconocer a la Tierra como nuestro hogar y nuestra madre, así como lo han expresado distintas culturas a lo largo de la historia, demostrando la interdependencia entre sus ecosistemas y los seres vivos que la habitamos.</p>
+     
+     
+     <iframe width="560" height="315" src="https://www.youtube.com/watch?v=I_ls_BuOguE"/embed/dih4tYFIJ0" frameborder="0" allovfullscreen></iframe>
+     
+     
+  </div>
+ </div>
+  <div data-role="footer" data-theme="a">
+ 	 <h4>Aplicacion cinco</h4> <h4>Paredes Manzanares Nancy Araceli</h4>
+  </div>
+</div>
+</div>
+ 
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  	<h1>¿POR QUE SE CELEBRA EN ESE DIA EL DIA DE LA TIERRA?</h1>
+  </div>
+ <div data-role="content" align="center">
+ 	<div>
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('22','','imagenes/DIA.png',1)"><img src="imagenes/22.png" width="427" height="251" id="22"></a>
+	<p>El 22 de abril se celebra el Día Mundial de la Tierra. Esta fecha fue elegida porque el 22 de abril de 1970 una manifestación en Estados Unidos para que se creara en el Gobierno una agencia ambiental que trabaje sobre las problemáticas medioambientales.</p></div>
+  </div>
+ 	<div data-role="footer" data-theme="a">
+ 		<h4>Aplicacion cinco</h4> <h4>Paredes Manzanares Nancy Araceli</h4>
+ 	</div>
+ </div>
+</div>
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+	 <h1>Normas para el cuidado del medio ambiente</h1>
+ </div>
+ <div data-role="content" align="center">
+ 	<div>
+    <img src="imagenes/cuidado.png" width="438" height="279">
+ 		<p>
+1.-La inclusión del medio ambiente y todo lo que esto implica, dentro de la estrategia de la empresa.</p>
+<p>2.-La implementación de una correcta práctica o una buena conducta en lo relacionado con el medio ambiente.</p>
+<p>3.-El seguimiento, respeto y cumplimiento de las leyes ambientales que se encuentren vigentes en el momento en cuestión.</p>
+<p>4.-La instauración de algunas reglas y compromisos voluntarios que no tienen una obligación legal.</p>
+<p>5.-Realizar análisis del impacto que tiene la empresa en el medio ambiente debido a las actividades que desempeña.</p>
+<p>7.-La puesta en marcha de un departamento especializado en medio ambiente y la selección del personal adecuado para éste.</p>
+<p>8.-El desarrollo de ciertos programas informativos y de educación ambiental para todas las personas que laboran en la empresa (empleados, obreros, gerentes y directivos).</p>
+<p>9.-Realizar mejoras ambientales en los productos y servicios a los que se dedican, como por ejemplo, el fabricar productos con un costo ambiental de fabricación que sea mínimo, el fabricar productos de los llamados "verdes" o "ecológicos" o, el realizar productos con posibilidad de reciclaje.</p>
+<p>10.-Ahorrar energía de todo tipo.</p>
+<p>11.-No realizar impresiones innecesarias de e-mails.</p>
+<p>12.-Utilizar ordenadores portátiles en lugar de ordenadores de sobremesa. Los portátiles consumen un 50% menos de energía.</p>
+</div>
+  </div>
+ <div data-role="footer" data-theme="a">
+ 		<h4>Aplicacion Cinco</h4> <h4>Paredes Manzanares Nancy Araceli</h4>
+  </div>
+ </div>
+</div>
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ 	<h1>CALENTAMIENTO GLOBAL</h1>
+ </div>
+ <div data-role="content" align="center">
+ 	<div>
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('cale','','imagenes/806146361_1289540.gif',1)"><img src="imagenes/735371388_1036421.gif" width="430" height="282" id="cale"></a>
+	  <p>El calentamiento global se deve a la contaminacion que se lleva dia dia en todas las partes del mundo a la cual gracias a esa contaminacion la capa de ozono se esta desaciendo, los polos se esta derritiendo y cada vez hay mas animales y plantas en peligro de extincion</p>
+ 	
+ 	</div>
+  </div>
+ <div data-role="footer" data-theme="a">
+ 		<h4>Aplicacion Cinco</h4> <h4>Paredes Manzanares Nancy Araceli</h4>
+  </div>
+  </div>
+</div>
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ 	<h1>CAMBIO CLIMATICO</h1>
+ </div>
+<div data-role="content" align="center">
+	 <div>
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('camb','','imagenes/619303079_1409500.gif',1)"><img src="imagenes/terradoente2.gif" width="457" height="352" id="camb"></a>
+	   <p>El cambio climatico son los diferentes cambios que sufre nuestro planeta tierra dia a dia es decir las diferentes temperaturas que existen en el mundo un ejemplo es el que sufrimos en puebla:</p>
+        <p>Cuando estuvimos en tiempos de frio se exagero mucho la temperatura que ni siquiera queriamos salir de nuestras casas o tambien cuando era primavera y se presentaron lluvias con fuertes vientos y cosas asi</p>
+	</div>
+  </div>
+ <div data-role="footer" data-theme="a">
+ 		<h4>Aplicacion Cinco</h4> <h4>Paredes Manzanares Nancy Araceli</h4>
+  </div>
+ </div>
+</div>
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ 	<h1>TIPOS DE CONTAMINACION</h1>
+ </div>
+ <div data-role="content" align="center">
+ 	<div>
+    <p>Existen diferentes tipos de contaminacion algunos ejemplos son:</p>
+    	<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('TCON','','imagenes/misc2.png',1)"><img src="imagenes/21.png" width="463" height="180" id="TCON"></a>
+ 		
+      <p>La contaminacion del aire:(humo de los carros, de los cigarros, de los aerosoles, etc)</p>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('aire','','imagenes/21 - copia.png',1)"><img src="imagenes/misc2 - copia.png" width="251" height="253" id="aire"></a>
+<p>La contaminacion del agua:(Detergentes, basura en los rios, etc)</p>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('agua','','imagenes/ahorrar-agua1.png',1)"><img src="imagenes/images.png" width="259" height="194" id="agua"></a>
+<p>La contaminacion del suelo:(montoneros de basura, basura en los parques recreativos o botes que albergan demaciada basura)</p>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('suelo','','imagenes/medio_ambiente_ecologia_especies_en_peligro_de_extincion.png',1)"><img src="imagenes/medioambiente1.png" width="400" height="242" id="suelo"></a>
+<p>La contaminacion auditiva:(musicaa alto volumen, ruidero todas las noches que nois solo afecta al medio ambiente si no que tambien a nosotros los humanos)</p>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('auditiva','','imagenes/55700EB67.png',1)"><img src="imagenes/terradoente2.gif" width="355" height="291" id="auditiva"></a>
+<p>La contaminacion visual:(Grafitys en todos lados y uno nuevo cada dia)</p>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('visual','','imagenes/21.png',1)"><img src="imagenes/sustentator-550x395.png" width="350" height="195" id="visual"></a>
+<p>Etc,etc,etc,etc</p>
+ 	
+ 	</div>
+  </div>
+ <div data-role="footer" data-theme="a">
+ 		<h4>Aplicacion Cinco</h4> <H4>Paredes Manzanares Nancy Araceli</h4>
+  </div>
+  </div>
+</div>
+<div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ 	<h1>REGLAS DE LAS 3 R</h1>
+ </div>
+ <div data-role="content" align="center">
+ 	<div>
+    	<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('3r','','imagenes/ambie.png',1)"><img src="imagenes/medio-ambiente.png" width="460" height="238" id="3r"></a>
+ 		<h2>Regla de las 3 "R"</h2>
+        <p>Devemos tomar en cuenta que si nosotros ayudamo al planeta el nos ayuda a nosotros y nos brinda vida, por eso se crearon la famosa regla de las 3"R" el cual nos invita a :</p>
+        <p> RECICLAR:Podemos volver a usar hojas para apuntar,cajas de plastico para hacer muebles o en pocas palabras darle otro uso muy diferente a las cosas y lo cual nos las hace mas utiles.        </p>
+        <p>REUTILIZAR:Podemos utilizar botellas de plastico, papel, periodico, latas de refresco entre otras muchas cosas mas para hacer manualidades.        </p>
+        <p>REDUCIR:Tenemos que tratar de ocupar o adquirir aquellos productos que sabemos que dañan el medio ambiente.</p>
+        <h2>Beneficios</h2>
+        <p>*Contaminamos menos el medio ambiente
+        </p>
+        <p>*Contribuimos al cuidado de la capa de ozono </p>
+        <p>*Construimos cosas utiles y recicladas para nosotros</p>
+        <p>*Alargamos la vida del planeta tierra</p>
+        <p>*Damos un buen ejemplo a nuetros hijos </p>
+        <p>*Aprovechamos todos los materiales al maximo</p>
+ 	
+ 	</div>
+  </div>
+ <div data-role="footer" data-theme="a">
+ 		<h4>Aplicacion Cinco</h4> <h4>Paredes Manzanares Nancy Araceli</h4>
+  </div>
+  </div>
+</div>
+<div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ 	<h1>PROBLEMAS CERCA DE MI COMUNIDAD</h1>
+ </div>
+ <div data-role="content" align="center">
+ 	<div>
+    	 <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('CERCA','','imagenes/IMG_20160426_131934.png',1)"><img src="imagenes/IMG_20160426_131840.png" width="400" height="217" id="CERCA"></a>
+ 		<p>Hoy en dia la contaminacion es un problema muy fuerte para cualquier comunidad pero en especial para aquellas que eran hermosas por sus jardines, rios o zonas de juego para los niños los cuales dañan a todos y algunos tipos de contaminaciones que se presentan en mi comunidad son:</p>
+ 		<p> *Contaminacion del suelo(Pues rodos los dias hay montoineros de basura en la calle y los parques de juegos estan repletos de basura)</p>
+ 		<p>*Contaminacion del aire (Pues los camiones,carros o motos sueltan gases altamente toxicos)        </p>
+ 		<p>*Contaminacion auditiva (Pues noche tras noche ponen musica a alto volumen y a altas horas de la noche)</p>
+ 		<p> *Contaminacion visual (Todos los dias encontraras un nuevo grafity) </p>
+ 	
+ 	</div>
+  </div>
+ <div data-role="footer" data-theme="a">
+ 		<h4>Aplicacion Cinco</h4> <h4>Paredes Manzanares Nancy Arceli</h4>
+  </div>
+  </div>
+</div>
+
+
+ </body>
+ </html>
